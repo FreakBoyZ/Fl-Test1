@@ -1,0 +1,7 @@
+* { margin: 0; padding: 0; }
+#all{ width:980px; height:100%; margin:0px auto; position:relative; }
+#header{ background-color:#ec8000;width:200px;height:100px; padding:8px; }
+#left{ background-color:#80ec00; width:200px;height:100px; position:absolute;}
+#content{ position:absolute; width:200px;height:100px;margin:0 250px 0 200px; padding:8px; }
+#right{ background-color:#8080ec; width:200px;height:100px; position:absolute; right:0; }
+#footer{ position:absolute; background-color:#808080; width:200px;height:100px; text-align:center; bottom:-120px; width:100%; }
