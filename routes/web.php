@@ -26,3 +26,14 @@ Route::get('/test02/', function () {
 Route::get('/vplan01/', function () {
     return view('vplan01');
 });
+
+// Use for API Test
+Route::get('/api/', function () {
+    echo "API Link";
+});
+
+Route::get('/api/test1', function () {
+    return [ 1 => "a", 2 => "b", 3 => "c"];
+});
+
+
