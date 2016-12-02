@@ -19,6 +19,7 @@
     <div id="content">
         <p id="para1">Content</p>
     </div>
+    <div>Test</div>
     <div id="right">
         <p id="para1">right</p>
     </div>
@@ -39,5 +40,4 @@
 
 
 </body>
-</html>
 
