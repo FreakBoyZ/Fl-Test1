@@ -27,6 +27,18 @@ Route::get('/vplan01/', function () {
     return view('vplan01');
 });
 
+Route::get('/vplan02/', function () {
+    return view('vplan02');
+});
+
+Route::get('/vplan03/', function () {
+    return view('vplan03');
+});
+
+Route::get('/index/', function () {
+    return view('index');
+});
+
 // Use for API Test
 Route::get('/api/', function () {
     echo "API Link";
